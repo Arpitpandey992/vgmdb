@@ -15,7 +15,7 @@ services:
     image: hufman/vgmdb_web:latest
     container_name: vgmdb_web
     ports:
-      - "5000:80"
+      - "5020:80"
     labels:
       com.joyent.package: g4-highcpu-256M
       triton.cns.services: vgmdb-web
